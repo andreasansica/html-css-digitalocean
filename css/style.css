@@ -187,9 +187,26 @@ background-color: lightgreen;
   font-size: 15px;
 }
 #sezione4  #carousel-example-generic{
-  width: 500px;
+  width: 600px;
   height: 400px;
-  margin-left: 300px;
+  margin-left: 280px;
   margin-top: 100px;
   margin-bottom: 50px;
+}
+
+
+#sezione5 h1{
+  font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+#sezione5 h2 p{
+  text-align: left;
+}
+#sezione5 a{
+  color: blue;
+  text-align: left;
+}
+#sezione5 h2{
+  font-size: 17px;
 }
