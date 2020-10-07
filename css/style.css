@@ -1,10 +1,116 @@
 /*regole di debug*/
-[class*="col-"] {
+/*[class*="col-"] {
  min-height: 100px;
 background-color: lightgreen;
  border: solid 1px  #000;
-}
+}*/
 
-.container-fluid{
+/*.container-fluid{
   background-color: blue;
+}*/
+
+
+
+#sezione1 .navbar-default{
+  border: none;
+  background-color: white;
+  padding-top: 20px;
+  width: 95%;
+
+
+}
+#sezione1 .navbar-brand > img{
+  height: 40px;
+  width: 40px;
+  margin-top: -15px;
+}
+#sezione1 .navbar-brand{
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+#sezione1 li a{
+  color: black;
+  background-color: white;
+}
+#sezione1 button{
+  border-color: blue;
+  color: blue;
+  background-color: white;
+  margin-top: 13px;
+  border-radius: 5px;
+}
+#sezione1 .navbar-header{
+  margin-right: 100px;
+}
+#sezione1 h1{
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  margin-top: 130px;
+
+}
+#sezione1 p{
+  font-size: 15px;
+  text-align: left;
+  color: grey;
+}
+#sezione1 .container-fluid{
+  height: 500px;
+  background-image: url(../img/home.jpg);
+}
+.account{
+  background-color: white;
+  height: 330px;
+  width: 400px;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 50px;
+}
+.account h2{
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+#sezione1 .account p{
+  font-size: 10px;
+  text-align: center;
+}
+.account .start{
+  font-size: 25px;
+  color: blue;
+ margin-left: 90px;
+ font-weight: bold;
+}
+.account a{
+  color: blue;
+}
+.account #create{
+  color: white;
+  background-color: blue;
+  width: 100%;
+  height:30px;
+  margin-top: 15px;
+}
+.account #google{
+  color: black;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+  margin-top: 15px;
+}
+.account #google > img{
+  height: 10px;
+  width: 10px;
+
+
+}
+.account input{
+  border: 1px grey;
+  padding: 5px;
+  width: 100%;
 }
