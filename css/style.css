@@ -146,14 +146,14 @@ background-color: lightgreen;
 #sezione3 h2{
   font-size: 15px;
   margin-bottom: 50px;
+  color: grey;
 }
 #sezione3 li{
   text-decoration: none;
   color: grey;
   list-style: none;
-
-   margin-top: 20px;
-   margin-left: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 #sezione3 li a{
   color: grey;
@@ -164,4 +164,32 @@ background-color: lightgreen;
 }
 #sezione3 p{
   font-size: 14px;
+}
+
+
+#sezione4{
+  height: 500px;
+}
+#sezione4 h1{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+#sezione4 h3{
+  font-size: 18px;
+  color: grey;
+}
+#sezione4 img{
+  height: 400px;
+  width: 550px;
+}
+#sezione4 h2{
+  font-size: 15px;
+}
+#sezione4  #carousel-example-generic{
+  width: 500px;
+  height: 400px;
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
