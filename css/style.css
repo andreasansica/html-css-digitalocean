@@ -1,0 +1,10 @@
+/*regole di debug*/
+[class*="col-"] {
+ min-height: 100px;
+background-color: lightgreen;
+ border: solid 1px  #000;
+}
+
+.container-fluid{
+  background-color: blue;
+}
