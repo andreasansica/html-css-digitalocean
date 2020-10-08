@@ -280,29 +280,114 @@ background-color: lightgreen;
 }
 
 
+#sezione8{
+  height: 200px;
+ background-color: darkblue;
+}
+#sezione8 h1{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: white
+}
+
+#sezione8 button{
+  background-color: white;
+  color: blue;
+  border-radius: 7px;
+  padding: 8px;
+  font-size: 15px;
+  width: 200px;
+  height: 40px;
+}
+
+footer{
+  background-color: navy;
+  height: 600px;
+}
+footer img{
+  height: 40px;
+  width: 40px;
+  margin-top: 40px;
+}
+footer p{
+  color: grey;
+  font-size: 12px;
+}
+
+footer h1{
+  font-size: 17px;
+  color: white;
+  margin-top: 50px;
+}
+footer h3{
+  color: grey;
+  font-size: 15px;
+}
+footer li{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+
+}
+footer li a{
+  font-size: 20px;
+  color: grey;
+  margin-left: 15px;
+}
 
 
 
 
 
+/* mobile */
+
+@media screen and (max-width: 768px) {
+  #sezione1 .container-fluid{
+    height: 1000px;
+    background-image: url(../img/home.jpg);
+  }
+ }
 
 
 
 
 
+ /*  tablet */
+@media screen and (max-width:993px) and (min-width: 769px) {
+  #sezione4  #carousel-example-generic{
+    width: 600px;
+    height: 400px;
+    margin-left: 180px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  #sezione6{
+    height: 800px;
+  }
+  #sezione6 a{
+    color: lightgreen;
+    font-size: 10px;
+    display: inline-block;
+    padding-left: 600px;
+ }
 
+ #sezione6 hr{
+   color: white;
+   height: 1px;
+   margin-top: 1px;
+   margin-bottom: 1px;
+ }
+ .rockerbox{
+   background-color: white;
+   height: 350px;
+   width: 500px;
+   margin-left: 25%;
+   margin-top: 100px;
+ }
+footer{
+  height: 800px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer
+}
